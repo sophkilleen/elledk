@@ -29,6 +29,14 @@ nav a{
     padding-bottom: 10px;
 }
 
+#abonner {
+    background-color: black;
+    color: white;
+    padding: 13px;
+    font-weight: 400;
+    font-size: small;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -36,4 +44,51 @@ nav{
     gap: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 2px; 
+}
+
+.overskrift{
+    margin-top: 30px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+
+
+.trekort{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.trekort > section{
+    width: 350px;
+    height:500px;
+    background-color: rgb(218, 210, 203);
+    padding:10px;
+    text-align: center;
+    margin-top: 20px;
+}
+    
+.trekort h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.trekort h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
+.trekort h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.linje {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: brown;
 }
