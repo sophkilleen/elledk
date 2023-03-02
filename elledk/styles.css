@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-right: 25px;
+    margin-top: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: brown;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+#ellelogo{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px; 
+}
